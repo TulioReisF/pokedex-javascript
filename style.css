@@ -1,0 +1,30 @@
+@import url("http://fonts.cdnfonts.com/css/pokemon-solid");
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://st2.depositphotos.com/3213441/12022/v/600/depositphotos_120226496-stock-illustration-pokemon-go-pokeball-seamless-texture.jpg);
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+  .content {
+    max-width: 992px;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 1rem;
+  }
+}
+
+h1 {
+  font-family: "Pokemon Solid", sans-serif;
+  color: #ff3c3c;
+}
